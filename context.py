@@ -1,6 +1,10 @@
 import math
 from turtle import pd
 
+"""
+TaskContext contains all the data needed for each step to execute the current step
+"""
+
 
 class TaskContext:
 

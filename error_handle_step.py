@@ -1,8 +1,8 @@
-import sqlalchemy as db
-import pandas as pd
-
-from find_ideal_function import FindIdealFunction
 from step import Step
+
+"""
+ErrorStep class represent the error step 
+"""
 
 
 class ErrorStep(Step):

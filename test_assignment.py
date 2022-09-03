@@ -5,9 +5,18 @@ from find_ideal_function import FindIdealFunction
 from step import Step
 from workflow_next_step import WorkflowNextStep
 
+"""
+Unit test cases for testing
+"""
+
 
 class TestAssignment(unittest.TestCase):
+
     def test_workflow(self):
+        """
+        test workflow steps
+        :return: nothing
+        """
         step = WorkflowNextStep.returnNextStep("LoadDataset", None)
         self.assertIsNotNone(step)
 
@@ -15,6 +24,10 @@ class TestAssignment(unittest.TestCase):
         self.assertIsInstance(step, FindIdealFunction)
 
     def test_load_dataset(self):
+        """
+        test if database is correctly loaded
+        :return: nothing
+        """
         context = TaskContext()
         nextstep = Step(context).process()
         while True:

@@ -4,6 +4,10 @@ from find_ideal_function import FindIdealFunction
 from load_dataset import LoadDataset
 from map_test_to_ideal_function import MapTestDataToIdealFunction
 
+"""
+Class WorkflowNextStep factory which return appropriate next step object to execute 
+"""
+
 
 class WorkflowNextStep:
     @staticmethod

@@ -1,3 +1,8 @@
+"""
+User defined Exception for the empty table exception
+"""
+
+
 class EmptyTableException(Exception):
     def __init__(self):
         """
