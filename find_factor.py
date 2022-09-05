@@ -7,7 +7,8 @@ from context import TaskContext
 from step import Step
 from workflow_next_step import WorkflowNextStep
 
-factors = np.arange(0.1, 3.0, 0.01)
+#factors = np.arange(0.1, 3.0, 0.01)
+factors = [1.25, 1.414,2.5]
 column_names = ["x", "y"]
 df = pd.DataFrame(columns=column_names)
 
