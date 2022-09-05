@@ -120,7 +120,7 @@ class MapTestDataToIdealFunction(Step):
             if idealFuncNo is None:
                 # if test case is not mapped to any ideal function then store test deviation as -1 and ideal function
                 # as none value
-                idealFunc = None
+                idealFunc = "None"
                 deviation = -1
             else:
 
